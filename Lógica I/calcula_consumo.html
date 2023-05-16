@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+
+    var tanque = parseFloat(prompt('Qual a capacidade do tanque (L)?'));
+
+    var caminhoComGasolina = parseFloat(prompt('Distância percorrida com gasolina (km)?'));
+    var consumoDeGasolina = caminhoComGasolina/tanque;
+
+    var caminhoComAlcool = parseFloat(prompt('Distância percorrida com álcool (km)?'));
+    var consumoDeAlcool = caminhoComAlcool/tanque;
+
+    document.write("O consumo de Gasolina é " + consumoDeGasolina + " km/L");
+
+    document.write("<br>");
+
+    document.write("O consumo de Álcool é " + consumoDeAlcool + " km/L");
+
+</script>
